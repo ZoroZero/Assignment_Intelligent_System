@@ -6,207 +6,279 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_weight="1">
+        android:layout_marginTop="20px"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="0.2">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="20dp"
-            android:text="Age"/>
 
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:layout_weight="1"
-            android:orientation="vertical">
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textColor="#00BCD4"
-                android:hint="input age"/>
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_weight="1">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:layout_weight="0.2">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="20dp"
-                android:text="Gender"/>
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:text="Age"
+                android:textSize="20dp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="1"
             android:orientation="vertical">
+
             <EditText
+                android:id="@+id/Age_Input"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="#00BCD4"
-                android:hint="input Male/Female"/>
+                android:layout_marginTop="5px"
+                android:hint="input age"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:textColor="#00BCD4" />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_weight="1">
+        android:layout_marginTop="20px"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="0.2">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="20dp"
-                android:text="Neuroticis"/>
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:text="Gender"
+                android:textSize="20dp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="1"
             android:orientation="vertical">
+
             <EditText
+                android:id="@+id/Gender_Input"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="#00BCD4"
-                android:hint="input Neuroticis"/>
+                android:hint="input Male/Female"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:textColor="#00BCD4" />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_weight="1">
+        android:layout_marginTop="20px"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="0.2">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="20dp"
-                android:text="Conscientiousness"/>
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:text="Neuroticis"
+                android:textSize="20dp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="1"
             android:orientation="vertical">
+
             <EditText
+                android:id="@+id/Neuroticis_Input"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="#00BCD4"
-                android:hint="input conscientiousness"/>
+                android:hint="input Neuroticis"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:textColor="#00BCD4" />
         </LinearLayout>
     </LinearLayout>
 
-
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_weight="1">
+        android:layout_marginTop="20px"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="0.2">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="20dp"
-                android:text="Agreeableness"/>
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:text="Conscientiousness"
+                android:textSize="20dp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="1"
             android:orientation="vertical">
+
             <EditText
+                android:id="@+id/Conscientiousness_Input"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="#00BCD4"
-                android:hint="input agreeableness"/>
+                android:hint="input conscientiousness"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:textColor="#00BCD4" />
         </LinearLayout>
     </LinearLayout>
 
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_weight="1">
+        android:layout_marginTop="20px"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="0.2">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="20dp"
-                android:text="openness"/>
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:text="Agreeableness"
+                android:textSize="20dp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="1"
             android:orientation="vertical">
+
             <EditText
+                android:id="@+id/Agreeableness_Input"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="#00BCD4"
-                android:hint="input openness"/>
+                android:hint="input agreeableness"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:textColor="#00BCD4" />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_weight="1">
+        android:layout_marginTop="20px"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="0.2">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="20dp"
-                android:text="Extraversion"/>
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:text="Openness"
+                android:textSize="20dp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="1"
             android:orientation="vertical">
+
             <EditText
+                android:id="@+id/Openness_Input"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="#00BCD4"
-                android:hint="input extraversion"/>
+                android:hint="input openness"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:textColor="#00BCD4" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20px"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="0.2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:text="Extraversion"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Extraversion_Input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="input extraversion"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:textColor="#00BCD4" />
         </LinearLayout>
     </LinearLayout>
 
@@ -214,10 +286,14 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_weight="1">
+
         <Button
+            android:id="@+id/Submit_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Submit"/>
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:text="Submit" />
     </LinearLayout>
     
 </LinearLayout>
