@@ -12,7 +12,9 @@ import android.view.animation.AlphaAnimation;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.RatingBar;
+import android.widget.TextView;
 
+import com.example.assignment_personality_predict.helper.Constants;
 import com.example.assignment_personality_predict.requestHandler.RequestService;
 import com.example.assignment_personality_predict.requestHandler.Volley_CallBack;
 
@@ -43,6 +45,20 @@ public class SurveyActivity extends AppCompatActivity implements Volley_CallBack
         RatingBar opennessTV = findViewById(R.id.Openness_Rating);
         RatingBar extraversionTV = findViewById(R.id.Extraversion_Rating);
 
+        TextView opennessDescription = findViewById(R.id.OpennessDescription);
+        opennessDescription.setText(Constants.OPENNESS_DESCRIPTION);
+
+        TextView extraversionDescription = findViewById(R.id.ExtraversionDescription);
+        extraversionDescription.setText(Constants.EXTRAVERSION_DESCRIPTION);
+
+        TextView agreeablenessDescription = findViewById(R.id.AgreeablenessDescription);
+        agreeablenessDescription.setText(Constants.AGGREEABLENESS_DESCRIPTION);
+
+        TextView conscientiousnessDescription = findViewById(R.id.ConscientiousnessDescription);
+        conscientiousnessDescription.setText(Constants.CONSCIENTIOUSNESS_DESCRIPTION);
+
+        TextView neuroticisDescription = findViewById(R.id.NeuroticisDescription);
+        neuroticisDescription.setText(Constants.NEUROTICISM_DESCRIPTION);
         age = Integer.parseInt(Objects.requireNonNull(getIntent().getStringExtra("age")));
         gender = Objects.requireNonNull(getIntent().getIntExtra("gender", 1));
 

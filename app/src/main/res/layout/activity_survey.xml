@@ -42,7 +42,7 @@
                     tools:layout_conversion_absoluteWidth="411dp" />
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/OpennessDescription"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -65,10 +65,10 @@
                     android:stepSize="0.5"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+                    app:layout_constraintTop_toBottomOf="@+id/OpennessDescription" />
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/ExtraversionDescription"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -106,7 +106,7 @@
                     android:stepSize="0.5"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView9" />
+                    app:layout_constraintTop_toBottomOf="@+id/ExtraversionDescription" />
 
                 <TextView
                     android:id="@+id/textView7"
@@ -124,7 +124,7 @@
                     tools:layout_conversion_absoluteWidth="411dp" />
 
                 <TextView
-                    android:id="@+id/textView10"
+                    android:id="@+id/ConscientiousnessDescription"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -147,10 +147,10 @@
                     android:stepSize="0.5"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView10" />
+                    app:layout_constraintTop_toBottomOf="@+id/ConscientiousnessDescription" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/agreeablenessLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -165,7 +165,7 @@
                     tools:layout_conversion_absoluteWidth="411dp" />
 
                 <TextView
-                    android:id="@+id/textView11"
+                    android:id="@+id/AgreeablenessDescription"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -173,7 +173,7 @@
                     android:text="TextView"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                    app:layout_constraintTop_toBottomOf="@+id/agreeablenessLabel" />
 
                 <RatingBar
                     android:id="@+id/Agreeableness_Rating"
@@ -187,7 +187,7 @@
                     android:stepSize="0.5"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView11" />
+                    app:layout_constraintTop_toBottomOf="@+id/AgreeablenessDescription" />
 
                 <TextView
                     android:id="@+id/textView6"
@@ -204,6 +204,18 @@
                     tools:layout_conversion_absoluteHeight="27dp"
                     tools:layout_conversion_absoluteWidth="411dp" />
 
+                <TextView
+                    android:id="@+id/NeuroticisDescription"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="TextView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
                 <RatingBar
                     android:id="@+id/Neuroticis_Rating"
                     style="@android:style/Widget.DeviceDefault.Light.RatingBar"
@@ -216,7 +228,7 @@
                     android:stepSize="0.5"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+                    app:layout_constraintTop_toBottomOf="@+id/NeuroticisDescription" />
 
                 <Button
                     android:id="@+id/Submit_button"
