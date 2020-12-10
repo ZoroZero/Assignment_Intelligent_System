@@ -38,7 +38,7 @@ def hello_user(user):
 @app.route('/api')
 def predict():
     age = int(request.args['age'])
-    gender = int(request.args['age'])
+    gender = int(request.args['gender'])
     openness = int(request.args['openness'])
     neuroticism = int(request.args['neuroticism'])
     conscientiousness = int(request.args['conscientiousness'])
