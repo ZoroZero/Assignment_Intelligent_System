@@ -1,7 +1,7 @@
 package com.example.assignment_personality_predict.helper;
 
 public class Constants {
-    public static String AI_SERVER_URL =  "http://192.168.1.108:5000";
+    public static String AI_SERVER_URL =  "http://10.127.23.230:5000";
     public static String OPENNESS_DESCRIPTION = "People who are high in this trait tend to be more adventurous and creative. " +
             "People low in this trait are often much more traditional and may struggle with abstract thinking.\n";
     public static String EXTRAVERSION_DESCRIPTION = "Extraversion is characterized by excitability, sociability, talkativeness,... " +
