@@ -12,6 +12,12 @@ The turnover rate in Viet Nam is increasing each year due to several reasons. On
 
 {AI model in this project}
 In this project, we will Multiple Class Logistic Regression to predict. Using the data-set collected from google and also from survey, we train the AI and then using the model to test on real input.
+
+# Feature 
+- The application can currently predict user personality through their input in the app based on 7 features
+![image](https://user-images.githubusercontent.com/40843946/101856755-86595000-3b98-11eb-9867-c5acb15178cd.png)
+![image](https://user-images.githubusercontent.com/40843946/101856791-9b35e380-3b98-11eb-828b-ca69931d1dfd.png)
+![image](https://user-images.githubusercontent.com/40843946/101856837-b43e9480-3b98-11eb-8649-d2230a33b63a.png)
 # AI model
 In this project we used multiclass logistic regression model for predicting personality
 ![image](https://user-images.githubusercontent.com/40843946/101851971-2c07c180-3b8f-11eb-8a9c-c89f031dbdf3.png)
